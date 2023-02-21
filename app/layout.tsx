@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RootLayout({
   children,
 }: {
@@ -8,10 +10,12 @@ export default function RootLayout({
       <head />
       <body>
         <header>
-          <h1>Nowy Blog</h1>
+          <Link href="/">
+            <h1>Nowy Blog</h1>
+          </Link>
         </header>
         {children}
-        <footer>2023®</footer>
+        <footer>2023 ®</footer>
       </body>
     </html>
   );
