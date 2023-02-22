@@ -1,5 +1,5 @@
 import PostPreview from "@/components/PostPreview";
-import { posts } from '../posts/posts'
+import { posts } from '../../posts/posts'
 
 // async function getPosts(){
 //   const response = await fetch('http://localhost:3000/api/posts')
