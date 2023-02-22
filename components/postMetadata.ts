@@ -1,6 +1,7 @@
 export interface PostMetadata {
+    id: number,
     title: string,
     date: string,
-    subtitle: string,
-    slug: string
+    subtext: string,
+    contains: string
 }
